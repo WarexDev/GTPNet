@@ -1,0 +1,9 @@
+﻿  IPEndpoint.cpp
+  NetLog.cpp
+  Network.cpp
+  Packet.cpp
+  TCPSocket.cpp
+  SocketBase.cpp
+  UDPSocket.cpp
+D:\SVN\Eleves\bfraysse\PersonnalProject\GTPNet\GTPNet\GTPNet\IPEndpoint.cpp(193): warning C4172: retourne l'adresse d'une variable locale ou : addr_v6, addr_v4 temporaire
+  GTPNet.vcxproj -> D:\SVN\Eleves\bfraysse\PersonnalProject\GTPNet\GTPNet\x64\Debug\GTPNet.lib

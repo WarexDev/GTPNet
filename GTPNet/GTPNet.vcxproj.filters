@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\TCP">
+      <UniqueIdentifier>{83693ded-645a-4523-a361-69c9d4067b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\UDP">
+      <UniqueIdentifier>{44c1ecfe-8b45-4dc6-85c6-89335f115d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\RUDP">
+      <UniqueIdentifier>{ad7c8fcd-ebe9-4c1f-b66a-d837e233ea1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TCP">
+      <UniqueIdentifier>{b2cf7b75-c07b-4096-ba9c-4d784505559d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\UDP">
+      <UniqueIdentifier>{d172811d-1dd8-4281-b589-b124927fff46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\RUDP">
+      <UniqueIdentifier>{ac4ed672-47b3-415f-a077-37618f58f6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Common">
+      <UniqueIdentifier>{d44bb526-d003-4733-beec-d02e4fea7168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Common\Socket">
+      <UniqueIdentifier>{f345ec62-dda5-4bf1-959c-9026e934158a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Common\Log">
+      <UniqueIdentifier>{0e9a2c44-2fdc-414d-9c52-0176f48bba9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Common">
+      <UniqueIdentifier>{c7527fb4-a441-44c8-b94b-64e73b163434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Common\Log">
+      <UniqueIdentifier>{4e3af5f7-f080-4ce9-81ec-1b50d5df6808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Common\Socket">
+      <UniqueIdentifier>{0c204483-44f8-4c1a-adec-fb1ec78ca7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TCP\Socket">
+      <UniqueIdentifier>{f09bb078-73b1-4495-92de-e38251adbd22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\TCP\Socket">
+      <UniqueIdentifier>{f4060f49-df29-4328-bc70-419b38d68067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Common\Packets">
+      <UniqueIdentifier>{43f4b573-6590-4382-b730-085636f0f468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\UDP\Socket">
+      <UniqueIdentifier>{86d103d8-a41b-48f8-a230-b509b2e5362a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\UDP\Socket">
+      <UniqueIdentifier>{3a3ed45c-bb88-4ff7-9070-11550594ae41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Common\Util">
+      <UniqueIdentifier>{f1b0449c-bbbd-41c7-8011-bada5dc7fb9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetLog.cpp">
+      <Filter>Fichiers sources\Common\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketBase.cpp">
+      <Filter>Fichiers sources\Common\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocket.cpp">
+      <Filter>Fichiers sources\TCP\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="IPEndpoint.cpp">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPSocket.cpp">
+      <Filter>Fichiers sources\UDP\Socket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SocketBase.h">
+      <Filter>Fichiers d%27en-tête\Common\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLog.h">
+      <Filter>Fichiers d%27en-tête\Common\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketOption.h">
+      <Filter>Fichiers d%27en-tête\Common\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketHandle.h">
+      <Filter>Fichiers d%27en-tête\Common\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocket.h">
+      <Filter>Fichiers d%27en-tête\TCP\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="PResult.h">
+      <Filter>Fichiers d%27en-tête\Common\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeMe.h">
+      <Filter>Fichiers d%27en-tête\Common\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Fichiers d%27en-tête\Common\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="IPEndpoint.h">
+      <Filter>Fichiers d%27en-tête\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IPVersion.h">
+      <Filter>Fichiers d%27en-tête\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Fichiers d%27en-tête\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketException.h">
+      <Filter>Fichiers d%27en-tête\Common\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketType.h">
+      <Filter>Fichiers d%27en-tête\Common\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Fichiers d%27en-tête\Common\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPSocket.h">
+      <Filter>Fichiers d%27en-tête\UDP\Socket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

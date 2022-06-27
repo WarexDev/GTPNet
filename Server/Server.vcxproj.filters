@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Common">
+      <UniqueIdentifier>{8046f93a-b305-4d2f-b4b6-6c59cc71d605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\TCP">
+      <UniqueIdentifier>{5d124fa8-af62-4362-80b2-138a4ce9ed7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\RUDP">
+      <UniqueIdentifier>{49b051ab-f275-490e-a82b-48424ed868df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\UDP">
+      <UniqueIdentifier>{96057e36-05f4-4a55-b019-39b162931cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Common">
+      <UniqueIdentifier>{35a4fdac-ae04-44fd-a8bc-a875b007ef47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TCP">
+      <UniqueIdentifier>{b903a3b7-b909-491d-a6f2-931f97d82b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\UDP">
+      <UniqueIdentifier>{38182db7-a5ab-4b32-a179-897ea59fd8ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPServer.cpp">
+      <Filter>Fichiers sources\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPServer.cpp">
+      <Filter>Fichiers sources\UDP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TCPServer.h">
+      <Filter>Fichiers d%27en-tête\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Fichiers d%27en-tête\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPServer.h">
+      <Filter>Fichiers d%27en-tête\UDP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
